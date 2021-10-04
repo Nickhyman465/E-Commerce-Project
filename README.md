@@ -22,7 +22,7 @@ The main challenge with this back-end project was understanding database relatio
 
 ## Installation
 * npm install
-* mysql -u root -password
+* mysql -u root -p
 * source db/schema.sql
 * exit
 * npm run seed 
@@ -30,8 +30,13 @@ The main challenge with this back-end project was understanding database relatio
 
 ## Usage
 
+- [Repo Link](https://nickhyman465.github.io/E-Commerce-Project/)
+- [Demo](https://drive.google.com/file/d/13vphBMWMqhXNjbeLqX9KmibsnzK8CT0T/view)
+
 ## License
-[MIT](https://opensource.org/licenses/MIT)
+This project is protected by [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Questions
-If you have any questions, please feel free to reach out to me through email at: nickhyman465@gmail.com
+If you have any questions, please feel free to reach out to me at:
+* Email: nickhyman465@gmail.com 
+* [Github](https://github.com/nickhyman465)
