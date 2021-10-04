@@ -60,11 +60,12 @@ router.put('/:id', async (req, res) => {
 router.delete('/:id', async(req, res) => {
   // deletes a category by its `id` value
   try {
-    const deletedCategory = await Tag.destroy({
+    const deletedCategory = await Category.destroy({
       where: {id: req.params.id}
     });
     if (!deletedCategory) {
       res.status(404).json({ message: 'That is not the category you are looking for. No tag by that ID'});
+      return;
     }
     res.status(200).json(deletedCategory);
   } catch (err) {
